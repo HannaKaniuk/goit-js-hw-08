@@ -28,8 +28,8 @@ function loadFormState() {
 loadFormState();
 
 
-inputEmail.addEventListener('input', throttle(saveFormState, 500));
-messageTextarea.addEventListener('input', throttle(saveFormState, 500));
+feedbackForm.addEventListener('input', throttle(saveFormState, 500));
+
 
 
 feedbackForm.addEventListener('submit', (evt) => {
